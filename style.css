@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Father {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg, rgb(213, 227, 19), rgb(57, 7, 104));
+}
+
+.Son1,
+.Son2 {
+    background-image: linear-gradient(45deg, rgb(84, 11, 254), rgb(39, 5, 161));
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+.Son1 h1 {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 220px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Menu {
+    padding: 20px;
+}
+
+.Menu ul li {
+    list-style: none;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.Menu .bi {
+    font-size: 30px;
+}
+
+.Alert {
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+.Alert .bi {
+    font-size: 60px;
+    color: orange;
+}
+
+.Alert button {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(114, 20, 94);
+}
+
+.Alert p,
+h3 {
+    margin: 5px 0px;
+}
+
+.Log {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.Log .bi {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.Log span {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.profile {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(IMG.jpg);
+    border: 3px solid blueviolet;
+}
+
+.Con {
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+    color: rgb(99, 5, 187);
+    background-color: rgb(235, 235, 235);
+}
+
+.Con .bi {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.Message {
+    margin-top: 20px;
+}
+
+.Middle {
+    margin: 20px;
+    height: 150px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(8, 20, 189), rgb(1, 156, 66));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle1 {
+    margin: 20px;
+    width: 250px;
+    height: 150px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(8, 20, 189), rgb(1, 156, 66));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle2 {
+    margin: 20px;
+    width: 150px;
+    height: 25px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(152, 222, 31), rgb(1, 156, 66));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle3 {
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    width: 450px;
+    height: 150px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(127, 89, 223), rgb(1, 156, 66));
+    display: flex;
+    justify-content: space-between;
+    align-items: .right;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle4 {
+    margin: 20px;
+    width: 400px;
+    height: 80px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(127, 89, 223), rgb(1, 156, 66));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle5 {
+    margin: 5px 150px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(127, 89, 223), rgb(1, 156, 66));
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Middle .right img {
+    width: 100%;
+    height: 150px;
+}
+
+.Middle .Left {
+    width: 70%;
+}
+
+.Son3 {
+    margin-top: 20px;
+}
+
+.Search {
+    margin-top: 20px;
+    background-image: linear-gradient(45deg, rgb(235, 15, 70, 0.5), rgb(11, 53, 190, 0.5));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.Search input,
+button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+    color: blue;
+}
+
+.Search button {
+    background-color: blueviolet;
+    color: white;
+}
+
+.Search input {
+    width: 80%;
+    background-color: transparent;
+    color: white;
+}
+
+.Search input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+.Con h1 {
+    font-size: 20px;
+}
+
+.Detail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Detail h3 {
+    font-size: 16px;
+    color: rgb(199, 158, 238);
+}
+
+.Menu ul li {
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul li .bi {
+    margin-right: 20px;
+}
